@@ -1,2 +1,1 @@
-Эмпирическая экономика
-(с) pavel@karasev.ru
+(с) pavel@karasev.ru 
