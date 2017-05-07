@@ -1,0 +1,18 @@
+<?php
+session_start();
+ini_set("include_path", ini_get("include_path"). PATH_SEPARATOR. dirname(dirname(__FILE__)) );
+
+if ( 1 || PATH_SEPARATOR==';') {
+	error_reporting(E_ALL | E_NOTICE);
+	ini_set('display_errors','On');
+}
+else {
+	ini_set('display_errors','Off');
+}
+
+
+require_once 'lib/load.cls';
+load::makefile('/.htaccess', 'tpl/_htaccess.tpl');
+load::makefile('/index.php', 'tpl/_index.tpl');
+
+die( load::renderpage() );
