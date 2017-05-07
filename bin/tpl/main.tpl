@@ -1,4 +1,4 @@
-<?
+<?php
 load::$layout	=	'default.tpl';
 load::$title	=	'start';
 ?>
