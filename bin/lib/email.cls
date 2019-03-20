@@ -7,9 +7,9 @@ class email
 	public	$encoding		=	'8bit';
 	public	$attach			=	'';
 	public	$maxFileSize	=	0x400000; //4Mb
-	public	$parameters		=	'';//'-fpavel@karasev.ru';
+	public	$parameters		=	'';//'-fmail@mail.com';
 	
-	public	$from			=	'STORY1<pavel@karasev.ru>';
+	public	$from			=	'Start<mail@mail.com>';
 	public  $to;
 	public  $cc;
 	public  $bc;
